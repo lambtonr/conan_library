@@ -32,9 +32,6 @@ include(${_project_options_SOURCE_DIR}/src/DynamicProjectOptions.cmake)
 # enable conan for this project
 set(ENABLE_CONAN_DEFAULT ON)
 
-# generate version using project_options
-generate_version_file()
-
 # Initialize project_options variable related to this project
 # This overwrites `project_options` and sets `project_warnings`
 # This also accepts the same arguments as `project_options`.
